@@ -16,7 +16,7 @@
       </header>
       <main>
         <div class="form-container">
-          <form action="submit">
+          <form action="submit" id="quote-generator-form">
             <input
               type="text"
               placeholder="Enter the topic of the desired quote"
@@ -24,6 +24,7 @@
               required
               autocomplete="off"
               class="instructions"
+              id="user-input"
             />
             <button type="submit" class="submit-button">Submit</button>
           </form>
@@ -31,7 +32,7 @@
             <strong>I.e. Not giving up, friendship, motivation, love...</strong>
           </div>
         </div>
-        <div class="poem">dhsgahgd;jga</div>
+        <div class="quote" id="quote"></div>
       </main>
       <footer>
         This AI project was coded by
